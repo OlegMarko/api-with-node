@@ -1,0 +1,32 @@
+{
+  "name": "api-with-node",
+  "version": "1.0.0",
+  "description": "Building API with Express",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlegMarko/api-with-node.git"
+  },
+  "keywords": [
+    "app",
+    "nodejs",
+    "express"
+  ],
+  "author": "Oleg Marko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OlegMarko/api-with-node/issues"
+  },
+  "homepage": "https://github.com/OlegMarko/api-with-node#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^3.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.0"
+  }
+}
